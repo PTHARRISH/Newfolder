@@ -33,13 +33,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="active">
+                    <a href="personal.html" class="active">
                         <span class="icon"><i class="fas fa-user"></i></span>
                         <span class="item">Personal Details</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="Course.html">
                         <span class="icon"><i class="fas fa-book "></i></span>
                         <span class="item">Courses</span>
                     </a>
@@ -63,37 +63,58 @@
                 </div>
                 
             </div>
-        </div>
+        </div><ul><li>
         <div class="content">
-                        <div class="row g-4">
-                            <div class="col">
-                                <label>Full Name<small style=" color:red">*</small></label>
-                              <input type="text" style="width: 20%;" class="form-control" placeholder="initial" aria-label="First name">
-                            </div>
-                            <div class="col" style="margin-left: -250px;" >
-                                <label>     </label>
-                                <input type="text" style="width:80%;"  class="form-control" placeholder="Name" aria-label="Last name">
-                            </div>
-                            <div class="col"  style="margin-left: -70px;">
-                                <label>Date of Birth</label>
-                              <input type="date"  class="form-control" placeholder="First name" aria-label="First name">
+                        <div class="row g-4">   
+                            <h5><b>Personal Information</b></h5>
+                            <div class="col-2" style="width:20% ;">
+                                <label class="form-label">Salution</label>
+                                <select id="inputblood" class="form-select">
+                                  <option selected>Choose Your Salution</option>
+                                  <option>Mr</option>
+                                  <option>Mrs.</option>
+                                  <option>Dr</option>
+                                  </select>
                             </div>
                             <div class="col">
+                                <label class="form-label">First Name<small style=" color:red">*</small></label>
+                              <input type="text"  class="form-control" placeholder="First Name" aria-label="First name">
+                            </div>
+                            <div class="col" >
+                                <label class="form-label">  Last Name   </label>
+                                <input type="text" style="width:90%;"  class="form-control" placeholder="Last Name" aria-label="Last name">
+                            </div>
+                            <div class="col"  >
+                                <label class="form-label">Date of Birth</label>
+                              <input type="date" style="width: 70%;" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col" >
                                 <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
-                                <div class="form-check form-check-inline" style="margin-left: 10px;" >
+                                <div class="form-check form-check-inline"  >
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                     <label class="form-check-label" for="inlineRadio1">Male</label>
                                   </div>
-                                  <div class="form-check form-check-inline" style="margin-left: 5px;">
+                                  <div class="form-check form-check-inline" >
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                                     <label class="form-check-label" for="inlineRadio2">Female</label>
                                   </div>
-                                  <div class="form-check form-check-inline" style="margin-left: 5px;">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">Transgender</label>
-                                  </div>
                             </div>
+                            </div>
+                            <br>
     <form class="row g-3">
+        <div class="col-2" style="width:20% ;">
+            <label class="form-label">Highest Qualification</label>
+            <select id="inputblood" class="form-select">
+              <option selected>Qualification</option>
+              <option>M.Sc</option>
+              <option>MCA</option>
+              <option>Ph.D</option>
+              </select>
+        </div>
+        <div class="col-3" >
+            <label class="form-label">  Aadhar Number  </label>
+            <input type="text" style="width:90%;"  class="form-control" placeholder="Aadhar Number" aria-label="Last name">
+        </div>
         <div class="col-3">
             <label for="inputblood" class="form-label">Blood Group</label>
             <select id="inputblood" class="form-select">
@@ -107,16 +128,195 @@
               <option>AB+ive</option>
               <option>AB-ive</option>
             </select>
-        </div><br></form>
-        <div class="col-lg-12">
-            <label class="contact" style="font-style:initial">Contact</label>    
-    </div>
-        <br>
-    </div>
+        </div><br>
+        </form></div>
+    </li>
+        <li><div class="content" style="margin-top:370px;" >
+         <h5><B>Contact Details</B></h5>
+         <div class="row g-3">
+            <div class="col-sm">
+              <label class="form-label">Mobile Number<small style=" color:red">*</small></label>
+              <input type="text" class="form-control" placeholder="Mobile Number" aria-label="Mobile Number">
+            </div>
+            <div class="col-sm">
+                <label class="form-label">Alternate Mobile Number<small style=" color:red">*</small></label>
+                <input type="text" class="form-control" placeholder="Alternate Mobile Number" aria-label="Alternate Mobile Number">
+            </div>
+            <div class="col-sm">
+                <label class="form-label">Personal Email Address<small style=" color:red">*</small></label>
+              <input type="text" class="form-control" placeholder="Personal Email Address" aria-label="Personal Email Address">
+            </div>
+          </div>                  
         </div>
-
+    </li>
+        <li><div class="content " style="margin-top:600px;" >
+            <div class="row g-2">
+                <h5><b>Address Details</b></h5>
+                <div class="col-sm">
+                  <label class="form-label">Enter the Residential Address<small style=" color:red">*</small></label>
+                  <input type="text" class="form-control" placeholder="Please Enter the Residential Address" aria-label="Residential Address">
+                </div>
+                <div class="col-sm">
+                    <label class="form-label">City<small style=" color:red">*</small></label>
+                    <input type="text" class="form-control" placeholder="City" aria-label="City">
+                </div>
+                <div class="col-sm">
+                    <label class="form-label">Pincode<small style=" color:red">*</small></label>
+                  <input type="text" class="form-control" placeholder="Pincode" aria-label="Pincode">
+                </div>
+                <div class="col-sm">
+                    <label for="inputblood" class="form-label">Select your district</label>
+                    <select id="inputblood" class="form-select">
+                      <option selected> Please Select your district </option>
+                      <option>Virudhunagar</option>
+                      <option>Madurai</option>
+                      <option>Chennai</option>
+                      <option>Salem</option>
+                      <option>Trichy</option>
+                      <option>Chengalpattu</option>
+                    </select>
+                </div><br>
+                <div class="row-col-sm">
+                    <br>
+                    <label for="inputblood" class="form-label">Select your State</label>
+                    <select id="inputblood" class="form-select" style="width: 30%;">
+                      <option selected> Please Select your State </option>
+                      <option>TamilNadu</option>
+                      <option>Kerala</option>
+                      <option>Karnadaka</option>
+                      <option>Andhra Pradesh</option>
+                      <option>Delhi</option>
+                      <option>Mumubai</option>
+                    </select>
+                </div>
+                
+              </div>                  
+            </div>
+        </li>
+        <li><div class="content" style="margin-top:930px;" >
+            <h5><B>Account Details</B></h5>
+            <div class="row g-3">
+               <div class="col-sm">
+                 <label class="form-label">Email Address<small style=" color:red">*</small></label>
+                 <input type="text" class="form-control" placeholder="Current EmailID" aria-label="City">
+               </div>
+               <div class="col-sm">
+                   <label class="form-label">Current Password<small style=" color:red">*</small></label>
+                   <input type="text" class="form-control" placeholder="Current Password" aria-label="Current Password">
+               </div>
+               <div class="col-sm">
+                   <label class="form-label">Change Password<small style=" color:red">*</small></label>
+                 <input type="text" class="form-control" placeholder="Change Password" aria-label="Change Password">
+               </div>
+             </div>                  
+           </div>
+       </li>
+       <div class="content" style="margin-top:1170px;" >
+        <h5><B>Course Selection Details</B></h5>
+        <div class="row g-3">
+        <div class="col">
+            <label for="inputblood" class="form-label">Select the course</label>
+            <select id="inputblood" class="form-select">
+              <option selected> Please Select course </option>
+              <option>MCA</option>
+              <option>BCA</option>
+              <option>B.Com</option>
+              <option>B.Sc CS</option>
+              <option>B.A TAMIL</option>
+              <option>B.Tech</option>
+            </select>
+        </div>
         
+        <div class="col">
+            <label for="inputblood" class="form-label">Select the Class</label>
+            <select id="inputblood" class="form-select">
+              <option selected> Please Select Class  </option>
+              <option>I MCA</option>
+              <option>II MCA</option>
+            </select>
+        </div>
+        
+        <div class="col">
+            <label for="inputblood" class="form-label">Select the Subject</label>
+            <select id="inputblood" class="form-select">
+              <option selected> Please Select Subject </option>
+              <option>OOAD</option>
+              <option>WAD</option>
+              <option>DAA</option>
+              <option>SE</option>
+              <option>OS</option>
+              <option>AI</option>
+            </select>
+        </div>
+        <div class="row g-3">
+            <div class="col">
+                <select id="inputblood" class="form-select">
+                  <option selected> Please Select course </option>
+                  <option>MCA</option>
+                  <option>BCA</option>
+                  <option>B.Com</option>
+                  <option>B.Sc CS</option>
+                  <option>B.A TAMIL</option>
+                  <option>B.Tech</option>
+                </select>
+            </div>
+            
+            <div class="col">
+                <select id="inputblood" class="form-select">
+                  <option selected> Please Select Class  </option>
+                  <option>I MCA</option>
+                  <option>II MCA</option>
+                </select>
+            </div>
+            
+            <div class="col">
+                <select id="inputblood" class="form-select">
+                  <option selected> Please Select Subject </option>
+                  <option>OOAD</option>
+                  <option>WAD</option>
+                  <option>DAA</option>
+                  <option>SE</option>
+                  <option>OS</option>
+                  <option>AI</option>
+                </select>
+            </div>
+            <div class="row g-3">
+                <div class="col">
+                    <select id="inputblood" class="form-select">
+                      <option selected> Please Select course </option>
+                      <option>MCA</option>
+                      <option>BCA</option>
+                      <option>B.Com</option>
+                      <option>B.Sc CS</option>
+                      <option>B.A TAMIL</option>
+                      <option>B.Tech</option>
+                    </select>
+                </div>
+                
+                <div class="col">
+                    <select id="inputblood" class="form-select">
+                      <option selected> Please Select Class  </option>
+                      <option>I MCA</option>
+                      <option>II MCA</option>
+                    </select>
+                </div>
+                
+                <div class="col">
+                    <select id="inputblood" class="form-select">
+                      <option selected> Please Select Subject </option>
+                      <option>OOAD</option>
+                      <option>WAD</option>
+                      <option>DAA</option>
+                      <option>SE</option>
+                      <option>OS</option>
+                      <option>AI</option>
+                    </select>
+                </div>
+
+        </div>
     </div>
+   </li>
+    </ul>
   <script>
     var hamburger = document.querySelector(".hamburger");
     hamburger.addEventListener("click", function(){

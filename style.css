@@ -56,7 +56,6 @@ body{
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
     color: #000B49;
-
     background:white;
     border-right: 2px solid rgb(5, 68, 104);
 }
@@ -87,6 +86,8 @@ body{
 
 }
 
+
+
 .wrapper .section .top_navbar .hamburger a{
     font-size: 28px;
     color: #f4fbff;
@@ -98,10 +99,11 @@ body{
 
 body.active .wrapper .sidebar{
     left: -225px;
+    
 }
 
 body.active .wrapper .section{
-    margin-left: 0;
+    margin-left: 0px;
     width: 100%;
 }
 
@@ -162,18 +164,17 @@ body.active .wrapper .section{
 }
 
 
+
 .wrapper .content{
-    position: fixed;
+    display: block;
+    position: absolute;
     width: 80%;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 100px;
+    padding: 50px;
     font-size: 0.9rem;
     background-color: #ffffff;
-    margin-left:250px;
+    margin-left:220px;
     margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 30px;
     box-shadow: 1px 1px 1px #d1d9e6, -1px -1px 1px #f9f9f9;
     border-radius: 12px;
     overflow: hidden;
@@ -182,8 +183,9 @@ body.active .wrapper .section{
 
 
 .active .wrapper .content{
-   margin-left: 20px;
-   width: 98%;
+   margin-left: 50px;
+   padding: 50px;
+   width: 90%;
 
 }
 
@@ -198,7 +200,7 @@ body.active .wrapper .section{
     border: 2px solid #ffffff;
     border-radius: 50%;
     position: absolute;
-    top: -10px;
+    top: -12px;
     left: 123px;
   }
   
@@ -209,7 +211,7 @@ body.active .wrapper .section{
     width: 25px;
     position: absolute;
     left: 118px;
-    top: -14px;
+    top: -16px;
     -webkit-animation: pulsate 1s ease-out;
     -webkit-animation-iteration-count: infinite;
     opacity: 0;
@@ -227,4 +229,6 @@ body.active .wrapper .section{
       opacity: 0;
     }
   }
+
   
+ 
